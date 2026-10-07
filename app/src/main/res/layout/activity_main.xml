@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Galeria de imagenes"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageGaleria"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imagen6"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/BtnAnterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anterior"
+            android:textSize="22sp"
+            android:backgroundTint="@color/material_dynamic_neutral80"
+            />
+
+        <Button
+            android:id="@+id/BtnSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siguiente"
+            android:textSize="22sp"
+            android:backgroundTint="@color/material_dynamic_neutral80"
+            android:layout_marginStart="20dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
